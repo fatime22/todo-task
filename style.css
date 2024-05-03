@@ -1,0 +1,67 @@
+.todo{
+    width: 80%;
+    height: 700px;
+    background: rgb(69,69,207);
+    background: radial-gradient(circle, rgba(69,69,207,1) 0%, rgba(7,8,203,1) 33%, rgba(0,249,255,1) 100%);
+    position: relative;
+}
+
+.todo1{
+    width: 40%;
+    height: 500px;
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 340px;
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    border-radius: 5px;
+    
+}
+
+.ban{
+  width: 82%;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+  
+}
+
+.ban1,.ban2,.ban_{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 10px;
+   
+    
+}
+
+.ban1,.ban_{
+    background-color: whitesmoke;
+}
+
+.ban2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.ban_{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban1 p,.ban_ p{
+    font-size: 20px;
+    margin: 15px 20px;
+}
