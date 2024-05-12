@@ -1,0 +1,49 @@
+.todo {
+    width: 100%;
+    height: 700px;
+    background: rgb(69, 69, 207);
+    background: radial-gradient(circle, rgba(69, 69, 207, 1) 0%, rgba(7, 8, 203, 1) 33%, rgba(0, 249, 255, 1) 100%);
+    position: relative;
+}
+
+.todo1 {
+    min-width: 30%;
+    min-height: 400px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 340px;
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    border-radius: 5px;
+
+}
+
+.ban {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+
+}
+.btn2 {
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none ;
+    background-color: rgb(210, 210, 210 , 0.4);
+    height: 36px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
